@@ -73,20 +73,17 @@ const News = () => {
                   tashriflarda ishtirok etish so‘rovi bildirildi.
                 </p>
                 <hr />
-<div className="bottomDateInfo d-flex justify-content-between flex-wrap">
-    <span className="newsTags my-2">
-    #hi_tech #IT_PARK
-    </span>
-    <span className="newsDate d-flex align-items-center my-2">
-    <i class="bi bi-calendar-week"></i>
-    14:45   22/02/23
-    </span>
-    <span className="newsShare d-flex align-items-center my-2 ms-3">
-    <i class="bi bi-share"></i>
-    Ulashish
-    </span>
-</div>
-
+                <div className="bottomDateInfo d-flex justify-content-between flex-wrap">
+                  <span className="newsTags my-2">#hi_tech #IT_PARK</span>
+                  <span className="newsDate d-flex align-items-center my-2">
+                    <i class="bi bi-calendar-week"></i>
+                    14:45 22/02/23
+                  </span>
+                  <span className="newsShare d-flex align-items-center my-2 ms-3">
+                    <i class="bi bi-share"></i>
+                    Ulashish
+                  </span>
+                </div>
               </div>
             </div>
             <div className="sidebar">

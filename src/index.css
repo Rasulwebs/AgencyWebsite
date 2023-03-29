@@ -72,6 +72,9 @@ footer {
 .projects__menu__wrap{
     background-color: var(--project_menu_background);
 }
+.mainNewsTextWrapp, .sidebarCardInfo{
+background-color: var(--about_background);
+}
 .container {
   max-width: 1270px !important;
   width: 100% !important;

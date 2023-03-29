@@ -1,6 +1,6 @@
 .newsWrapp {
   display: flex;
-gap: 30px;
+  gap: 30px;
   margin-top: 30px;
   .mainSec {
     max-width: 900px;
@@ -15,37 +15,35 @@ gap: 30px;
         filter: brightness(110%);
       }
     }
-    .mainNewsTextWrapp{
-        
-    background-color: #000;
-    margin-top: 20px;
-    border-radius: 20px;
-    padding: 40px;
-    .newsImg2{
-    max-width: 830px;
-    width: 100%;
-    border-radius: 20px;
-    }
-    .newsTitle{
+    .mainNewsTextWrapp {
+      margin-top: 20px;
+      border-radius: 20px;
+      padding: 40px;
+      .newsImg2 {
+        max-width: 830px;
+        width: 100%;
+        border-radius: 20px;
+      }
+      .newsTitle {
         font-weight: 700;
         font-size: 36px;
         line-height: 44px;
-    }
-    .newsText{
+      }
+      .newsText {
         font-weight: 100;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.02em;
+      }
     }
-    
-    }
-    .bottomDateInfo{
-        .newsShare{
+    .bottomDateInfo {
+      .newsShare {
         cursor: pointer;
-        }
-    .bi-calendar-week, .bi-share{
-    margin-right: 10px;
-    }
+      }
+      .bi-calendar-week,
+      .bi-share {
+        margin-right: 10px;
+      }
     }
   }
   .sidebar {
@@ -67,14 +65,12 @@ gap: 30px;
       }
       .sidebarCardInfo {
         padding: 15px 20px 25px 20px;
-        background-color: #000;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         .sidebarCardTitle {
           font-weight: 600;
           font-size: 20px;
           line-height: 24px;
-          
         }
       }
     }
@@ -82,23 +78,21 @@ gap: 30px;
 }
 
 @media only screen and (max-width: 990px) {
-.sidebar{
-display: none;
-}
-.mainSec{
-max-width: 960px;
-}
-
+  .sidebar {
+    display: none;
+  }
+  .mainSec {
+    max-width: 960px;
+  }
 }
 
 @media only screen and (max-width: 560px) {
-    .mainNewsTextWrapp{
-    
-        .newsTitle{
-            font-weight: 700;
-            font-size: 20px !important;
-            line-height: 24px !important;
-            margin-bottom: 20px;
-        }
+  .mainNewsTextWrapp {
+    .newsTitle {
+      font-weight: 700;
+      font-size: 20px !important;
+      line-height: 24px !important;
+      margin-bottom: 20px;
     }
+  }
 }
