@@ -8,6 +8,7 @@ import img4 from "../../assets/images/4.png";
 import img5 from "../../assets/images/5.png";
 import img6 from "../../assets/images/6.png";
 import Button from "../Button/Button";
+
 const Projects = () => {
   const data = [
     {

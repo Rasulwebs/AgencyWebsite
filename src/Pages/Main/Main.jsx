@@ -6,6 +6,7 @@ import OurServises from '../../components/OurServisesCard/OurServises.jsx';
 import Blog from '../../components/Blog/Blog.jsx';
 import OurTeam from '../../components/OurTeam/OurTeam';
 import Hero from '../../components/UI/Hero';
+import Hamkor from '../../components/Hamkor/Hamkor';
 
 const Main = () => {
 // useEffect(()=>{
@@ -17,14 +18,10 @@ const Main = () => {
             <AboutCompany/>
             <Opportinut/>
             <Projects />
-            
-
             <OurServises />
             <Blog />
             <OurTeam/>
-
-        
-
+            <Hamkor/>
         </div>
     );
 };

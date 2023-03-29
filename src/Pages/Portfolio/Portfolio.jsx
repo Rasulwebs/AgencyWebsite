@@ -9,6 +9,7 @@ import img4 from "../../assets/images/4.png"
 import img5 from "../../assets/images/5.png"
 import img6 from "../../assets/images/6.png"
 import ProjectC from '../../components/projects/ProjectC';
+import Hamkor from "../../components/Hamkor/Hamkor"
 const Portfolio = () => {
     const data = [
         {
@@ -153,6 +154,8 @@ const Portfolio = () => {
                     </div>
                 </div>
            </section>
+      <Hamkor/>
+
         </>
     );
 };
