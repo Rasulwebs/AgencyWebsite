@@ -5,8 +5,17 @@ import createGlobe from "cobe";
 
 
 const Navbar = () => {
-  const [nemo, setNemo] = useState(true);
-  
+
+  function setDarkMode(){
+    document.querySelector("body").setAttribute("data-theme", "dark")
+  }
+  function setLightMode(){
+    document.querySelector("body").setAttribute("data-theme", "light")
+  }
+  function toggleTheme(e){
+    if(e.target.checked) setLightMode()
+    else setDarkMode()
+  }
   return (
     <>
       <header>
@@ -33,7 +42,7 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               {/* <!-- Navbar brand --> */}
-              <NavLink className= "navbar-brand mt-2 mt-lg-0" to="/">
+              <NavLink className= "navbar-brand mt-2 mt-lg-0 nav-link"  to="/">
                 <h2 className="logoText">Logo</h2>
               </NavLink>
               {/* <!-- Left links --> */}
@@ -74,7 +83,7 @@ const Navbar = () => {
 
             {/* theme change */}
             <div className="theme">
-              <input type="checkbox" className="checkbox" id="checkbox" />
+              <input type="checkbox" className="checkbox" id="checkbox" onChange={toggleTheme}/>
               <label htmlFor="checkbox" className="label">
                 <i className="bi bi-brightness-high fa-sun"></i>
                 <i className="bi bi-moon fa-moon"></i>

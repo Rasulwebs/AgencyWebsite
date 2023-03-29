@@ -41,13 +41,12 @@
       font-weight: 600;
       font-size: 48px;
       line-height: 58px;
-      color: #ffffff;
     }
     .heroText {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      color: #ffffff;
+
       margin-top: 40px;
     }
   }
@@ -76,7 +75,7 @@
       // filter:hue-rotate(120deg);
     }
     &:hover {
-      color: #fff;
+      color: #ffffff;
     }
     &:hover::before {
       width: 100%;
@@ -84,23 +83,22 @@
       border-radius: 35px;
     }
   }
-  .cubeWrapp{
+  .cubeWrapp {
     display: flex;
     justify-content: center;
-    }
+  }
 }
 
 @media only screen and (max-width: 990px) {
-  .cubeWrapp{
-  display: flex;
-  justify-content: center;
+  .cubeWrapp {
+    display: flex;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 567px) {
-.heroTitle{
-
-  font-weight: 600;
-  font-size: 32px !important;
-  line-height: 35px !important;}
-
+  .heroTitle {
+    font-weight: 600;
+    font-size: 32px !important;
+    line-height: 35px !important;
+  }
 }

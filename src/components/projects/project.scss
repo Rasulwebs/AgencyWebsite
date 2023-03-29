@@ -8,8 +8,6 @@
       font-size: 36px;
       line-height: 44px;
       /* identical to box height */
-
-      color: #ffffff;
     }
   }
   &__menu {
@@ -22,7 +20,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      background: rgba(17, 19, 23, 0.5);
+      
       border: 1px solid #4e4e4e;
       /* Note: backdrop-filter has minimal browser support */
 
@@ -33,7 +31,7 @@
         font-size: 16px;
         line-height: 19px;
         cursor: pointer;
-        color: #dadada;
+
         padding: 12px 21px;
       }
       .active {
@@ -42,6 +40,7 @@
           #1e11ad 12.37%,
           rgba(105, 17, 173, 0.95) 85.28%
         );
+        color: #fff;
         border-radius: 30px;
       }
     }
@@ -72,7 +71,6 @@
       &:hover {
         .col__child {
           opacity: 1;
-          
         }
       }
     }
@@ -85,7 +83,7 @@
       width: 93%;
       height: 90%;
       transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.87);
+      background: rgba(0, 0, 0, 0.458);
       border-radius: 5px;
       padding: 30px;
       transition: all 0.3s ease;
@@ -97,7 +95,6 @@
         font-size: 20px;
         line-height: 24px;
 
-        color: #ffffff;
         i {
           font-size: 30px;
         }
@@ -107,9 +104,7 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 24px;
-
-        color: #ffffff;
-
+        color: #fff;
         position: absolute;
       }
     }
@@ -125,26 +120,26 @@
 .projects__menu2 {
   display: none;
 }
-.projects__prekts1{
-    display: block;
+.projects__prekts1 {
+  display: block;
 }
-.projects__prekts2{
-    display: none;
+.projects__prekts2 {
+  display: none;
 }
 @media only screen and (max-width: 576px) {
-    .projects__prekts2{
-        display: block;
-    }
-    .projects__prekts1{
+  .projects__prekts2 {
+    display: block;
+  }
+  .projects__prekts1 {
     display: none;
-}
+  }
   .projects__menu1 {
     display: none;
   }
   .projects__menu2 {
     display: block;
-    .projects__menu__wrap{
-        display: none;
+    .projects__menu__wrap {
+      display: none;
     }
   }
 }

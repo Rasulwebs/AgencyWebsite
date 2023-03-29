@@ -3,7 +3,6 @@
   .section_cards {
     margin-top: 40px;
     .card {
-      background: rgba(17, 19, 23, 0.5);
       border: 1px solid #4e4e4e;
       backdrop-filter: blur(2.5px);
       /* Note: backdrop-filter has minimal browser support */
@@ -19,13 +18,12 @@
           position: relative;
           line-height: 29px;
 
-          color: #ffffff;
           &::after {
             position: absolute;
 
             left: 0;
             display: block;
-            content: '';
+            content: "";
             margin-top: 10px;
             width: 50px;
             height: 3px;
@@ -39,8 +37,6 @@
           font-size: 16px;
           line-height: 22px;
           /* or 138% */
-
-          color: #ffffff;
         }
       }
       .img-card {
@@ -48,10 +44,10 @@
         height: 70px;
       }
       &:hover {
-        background: rgba(17, 19, 23, 0.315);
+        background: rgba(17, 19, 23, 0.195);
       }
       &:active {
-        background: rgba(17, 19, 23, 0.651);
+        background: rgba(17, 19, 23, 0.429);
       }
     }
     .desctop {
@@ -83,12 +79,11 @@
             position: relative;
             line-height: 29px;
 
-            color: #ffffff;
             &::after {
               position: absolute;
               left: 0;
               display: block;
-              content: '';
+              content: "";
               margin-top: 10px;
               width: 50px;
               height: 3px;
@@ -102,8 +97,6 @@
             font-size: 16px;
             line-height: 22px;
             /* or 138% */
-
-            color: #ffffff;
           }
         }
         .img-card {

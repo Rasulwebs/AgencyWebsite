@@ -10,7 +10,7 @@
   font-size: 36px;
   line-height: 44px;
   /* identical to box height */
-  color: #ffffff;
+  
 }
 .projects__menu {
   margin-top: 40px;
@@ -36,7 +36,7 @@
   font-size: 16px;
   line-height: 19px;
   cursor: pointer;
-  color: #dadada;
+   
   padding: 12px 21px;
 }
 .projects__menu__wrap .active {
@@ -95,7 +95,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  
 }
 .projects__prekts .col__child a i {
   font-size: 30px;
@@ -107,7 +107,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  
   position: absolute;
 }
 .projects__btn {

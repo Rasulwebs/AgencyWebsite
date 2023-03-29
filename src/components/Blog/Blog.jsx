@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
@@ -10,7 +9,7 @@ import BlogCard from "./BlogCard.jsx";
 import CardImg2 from "../../assets/images/CardImg2.png";
 import CardImg1 from "../../assets/images/CardImg1.png";
 import CardImg3 from "../../assets/images/CardImg3.png";
-import SectionTitle from "../Sectiontitle/SectionTitle.jsx"
+import SectionTitle from "../Sectiontitle/SectionTitle.jsx";
 const Blog = () => {
   return (
     <>
