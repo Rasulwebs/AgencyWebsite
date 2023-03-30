@@ -1,9 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import Main from "../Pages/Main/Main"
+import Main from "../Pages/Main/Main";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import News from "../Pages/News/News";
-
 
 const index = () => {
   return (
