@@ -68,7 +68,7 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item smMenuTellWrapp">
-                  <a className="nav-link smMenuTell" href="#">
+                  <a className="nav-link smMenuTell" href="tel:+998999999999">
                     (99) 999 9999
                   </a>
                 </li>

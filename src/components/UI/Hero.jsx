@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import createGlobe from "cobe";
 import "./styleHero.scss"
+import { NavLink } from "react-router-dom";
 const Hero = () => {
     const canvasRef = useRef();
 
@@ -56,7 +57,7 @@ const Hero = () => {
                 enim ad minim veniam.
               </p>
 
-              <a href="#" className="heroBtnn">Портфолио </a>
+              <NavLink to="/portfolio" className="heroBtnn">Портфолио </NavLink>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 mx-auto cubeWrapp">
               <div>

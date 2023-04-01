@@ -1,5 +1,6 @@
 import React from "react";
 import "./styleFooter.scss";
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -28,15 +29,15 @@ const Footer = () => {
             </div>
             <div className="col-lg-2 col-md-6 col-sm-12 mx-auto msgWrapp ">
               <div className="footerMesengers fs-2 ">
-                <a href="#" className="mx-2">
+                <NavLink to="/" className="mx-2">
                   <i class="bi bi-telegram"></i>
-                </a>
-                <a href="#" className="mx-2">
+                </NavLink>
+                <NavLink to="/" className="mx-2">
                   <i class="bi bi-facebook"></i>
-                </a>
-                <a href="#" className="mx-2">
+                </NavLink>
+                <NavLink to="/" className="mx-2">
                   <i class="bi bi-instagram"></i>
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
