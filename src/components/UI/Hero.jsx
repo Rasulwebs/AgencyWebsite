@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import createGlobe from "cobe";
-import "./styleHero.scss"
+import "./styleHero.scss";
 import { NavLink } from "react-router-dom";
 const Hero = () => {
-    const canvasRef = useRef();
+  const canvasRef = useRef();
 
   useEffect(() => {
     let phi = 0;
@@ -39,9 +39,9 @@ const Hero = () => {
       globe.destroy();
     };
   }, []);
-    return (
-        <>
-              <div className="hero">
+  return (
+    <>
+      <div className="hero">
         <div className="topRight"></div>
         <div className="leftBottom"></div>
 
@@ -57,7 +57,9 @@ const Hero = () => {
                 enim ad minim veniam.
               </p>
 
-              <NavLink to="/portfolio" className="heroBtnn">Портфолио </NavLink>
+              <NavLink to="/portfolio" className="heroBtnn">
+                Портфолио{" "}
+              </NavLink>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 mx-auto cubeWrapp">
               <div>
@@ -67,7 +69,6 @@ const Hero = () => {
                     maxWidth: 500,
                     height: 500,
                     width: "100%",
-                  
                   }}
                 />
               </div>
@@ -75,8 +76,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default Hero;
